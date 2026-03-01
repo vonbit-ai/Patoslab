@@ -1,0 +1,247 @@
+🚀 PROMPT COMPLETO
+
+Crie um site chamado "PatosLab – O laboratório da sua carreira".
+
+Tecnologia:
+
+Node.js com Express
+
+HTML + CSS moderno
+
+Layout responsivo
+
+Design clean com estilo tech
+
+Azul escuro + detalhes em azul neon
+
+Interface moderna e profissional
+
+🔥 ESTRUTURA PRINCIPAL
+
+O site deve ter 3 áreas principais:
+
+Gerador de Currículo Profissional
+
+Gerador de Currículo Jovem Aprendiz
+
+Analisador com Nota (PatosScore)
+
+🧑‍💼 MODO 1 – CURRÍCULO PROFISSIONAL
+
+Criar formulário dividido em etapas (multi-step form).
+
+ETAPA 1 – Dados pessoais
+
+Nome completo
+
+Email
+
+Telefone
+
+Cidade
+
+LinkedIn
+
+Portfólio (opcional)
+
+ETAPA 2 – Objetivo profissional
+
+Campo grande de texto
+Botão ao lado: "✨ Melhorar com IA"
+
+Quando clicado:
+
+Enviar texto para IA
+
+Retornar versão mais profissional
+
+Substituir automaticamente no campo
+
+ETAPA 3 – Experiência profissional
+
+Permitir adicionar múltiplas experiências:
+
+Para cada experiência:
+
+Empresa
+
+Cargo
+
+Período
+
+Descrição detalhada (textarea grande)
+
+Botão "Melhorar com IA"
+
+Permitir botão:
+"Adicionar nova experiência"
+
+ETAPA 4 – Formação acadêmica
+
+Curso
+
+Instituição
+
+Período
+
+Permitir múltiplas formações.
+
+ETAPA 5 – Habilidades
+
+Campo onde usuário pode:
+
+Digitar habilidade
+
+Clicar em adicionar
+
+Mostrar lista dinâmica
+
+👶 MODO 2 – JOVEM APRENDIZ
+
+Criar botão na página inicial:
+"Sou Jovem Aprendiz"
+
+Formulário adaptado:
+
+Nome
+
+Idade
+
+Escola
+
+Série
+
+Turno
+
+Cursos complementares
+
+Projetos escolares
+
+Habilidades
+
+Objetivo profissional simples
+
+Não exigir experiência profissional.
+
+Layout do currículo:
+
+Visual mais simples
+
+Foco em potencial e habilidades
+
+Linguagem leve
+
+📊 MODO 3 – PATOSSCORE (ANÁLISE COM NOTA)
+
+Criar área separada:
+
+Upload de PDF.
+
+Quando enviar:
+
+Extrair texto do PDF
+
+Enviar para IA pedindo análise estruturada
+
+IA deve retornar JSON com:
+
+{
+nota_final: number,
+clareza: number,
+impacto: number,
+organizacao: number,
+linguagem: number,
+competitividade: number,
+pontos_fortes: [],
+pontos_fracos: [],
+sugestoes: []
+}
+
+Exibir resultado com:
+
+Nota grande em destaque
+
+Barras de progresso
+
+Lista visual organizada
+
+Botão: "Melhorar automaticamente"
+
+🎨 TEMPLATES
+
+Adicionar escolha de template antes de gerar:
+
+Moderno
+
+Minimalista
+
+Corporativo
+
+Mostrar preview pequeno antes de gerar.
+
+📄 GERAÇÃO
+
+Ao finalizar:
+
+Gerar PDF profissional
+
+Permitir download
+
+Layout organizado
+
+Nome do arquivo: Nome_Sobrenome_Curriculo.pdf
+
+💡 MELHORAR TEXTO COM IA
+
+Implementar botão funcional em:
+
+Objetivo
+
+Descrição de experiências
+
+Objetivo jovem aprendiz
+
+Deve:
+
+Reescrever mantendo sentido
+
+Linguagem formal
+
+Foco em resultados
+
+Melhorar impacto
+
+📁 ESTRUTURA DO PROJETO
+
+/public
+/views
+/routes
+/server.js
+/utils/pdfGenerator.js
+/utils/aiService.js
+
+Código organizado e comentado.
+
+⚙️ REQUISITOS IMPORTANTES
+
+Usar variável de ambiente para API KEY
+
+Código pronto para rodar no Replit
+
+Sem banco de dados no MVP
+
+Sem login
+
+Foco total em funcionalidade
+
+🎯 Resultado esperado
+
+Um MVP funcional onde:
+
+Usuário pode criar currículo profissional
+
+Usuário pode criar currículo jovem aprendiz
+
+Usuário pode melhorar textos com IA
+
+Usuário pode enviar currículo e receber nota
